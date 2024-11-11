@@ -1,0 +1,97 @@
+/*---------
+    RESET
+-----------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.roboto-regular {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+/*---------
+    HEADER
+-----------*/
+
+.header {
+    padding: 10px 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1600px;
+    margin: auto;
+    padding: 15px 0;
+}
+
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.navbar ul li {
+    color: #007ee5;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.support-link, .contact-link, .login-link {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+
+
+.signup-btn {
+    padding: 8px 16px;
+    background-color: #007ee5;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+/*---------
+   SECTION
+-----------*/
+
+.sec-blue {
+    background-color: #b4d0e6;
+}
+
+
+.hero {
+    width: 800px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    
+}
+
+h1 {
+    font-size: 56px;
+}
+
